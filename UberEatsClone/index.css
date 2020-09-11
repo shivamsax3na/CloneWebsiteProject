@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #000000;
+}
+
+#searchBackId{
+	background-image:url("images/foodBack.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	min-height: 100vh;
+}
+
+.container{
+	width: 89%;
+	margin: auto;
+}
+
+.headerClass{
+	background-color: #FFFFFF;
+}
+
+.headerOptions{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -10px;
+}
+
+.headerOptions h1{
+	font-size: 30px;
+}
+
+.headerOptions a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px; 
+	font-weight: 600;
+}
+
+.headerOptions span{
+	color: #38DF5F;
+}
+
+.searchSection{
+	padding-top: 15%;
+	padding-left: 29%;
+}
+
+.searchQuote{ 
+	color: white;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+#deliverySearch{
+	font-size: 18px;
+	width: 500px;
+	padding: 12px; 
+}
+
+.searchBar a{
+	background-color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 500;
+	border: 1px solid #FFFFFF;
+	padding: 18px;
+}
+
+.searchBar a:hover{
+	color: #000000;
+	background-color: #FFFFFF;
+	transition: all 0.5s ease;
+}
+
+section .foodCardSpace{
+	background-color: #FFFFFF;
+	min-height: 100vh;
+	min-width: auto;	
+}
+
+
+.cardSpaceTitle h1{
+	padding-top: 50px;
+	padding-left: 65px;  
+	font-size: 35px;
+}
+
+.cardSpaceTitle a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.cardSpaceTitle a:hover{
+	color: #333333;
+	transition: all 0.3s ease;
+}
+
+#arrowFunctions{
+	padding-top: 70px;
+	padding-right: 150px; 
+	font-size: 40px;
+}
+
+
+.foodCard img{
+	max-width: auto;
+	max-height: 220px;
+}
+
+.foodCard a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.spanSize1{
+	font-size: 12px;
+}
+
+
+.spanSize0{
+	font-size: 20px;
+}
+

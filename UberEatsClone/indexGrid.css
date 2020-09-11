@@ -1,0 +1,13 @@
+.foodCardGrid3{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 80%;
+	margin: auto;
+}
+
+.flexGrid2{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
